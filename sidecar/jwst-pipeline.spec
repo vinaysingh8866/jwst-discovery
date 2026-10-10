@@ -22,6 +22,7 @@ from pathlib import Path
 from PyInstaller.utils.hooks import (
     collect_data_files,
     collect_submodules,
+    copy_metadata,
     get_package_paths,
 )
 
@@ -186,6 +187,16 @@ for _pkg in ["astroquery", "pyvo", "photutils", "reproject", "sep"]:
         datas += collect_data_files(_pkg, excludes=["**/tests/**/*", "tests/**/*"])
     except Exception as exc:  # pragma: no cover
         print(f"[jwst-pipeline.spec] WARNING: collect_data_files({_pkg!r}) failed: {exc}")
+
+# dist-info metadata: photutils reads its own requirements through
+# importlib.metadata at import time, and without the metadata the frozen
+# sidecar fails with PackageNotFoundError. astropy and astroquery do the same
+# for optional-dependency checks.
+for _pkg in ["photutils", "astropy", "astroquery", "sep"]:
+    try:
+        datas += copy_metadata(_pkg)
+    except Exception as exc:  # pragma: no cover
+        print(f"[jwst-pipeline.spec] WARNING: copy_metadata({_pkg!r}) failed: {exc}")
 
 # eazy: ship the small in-package data (zphot.param.default, Vega spectrum,
 # IGM coefficients) plus the subset of the eazy-photoz repository that
