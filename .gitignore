@@ -1,0 +1,44 @@
+# dependencies / build
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/schemas/
+src-tauri/sidecar-dist/
+sidecar/build/
+sidecar/*.egg-info/
+sidecar/.venv/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# secrets and local config
+.env
+.env.*
+*.local
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+
+# data and outputs never belong in git
+*.fits
+*.fits.gz
+*.parquet
+*.h5
+sidecar/data/psf_kernels/*.npy
+scrutiny_*.txt
+
+# build caches
+*.tsbuildinfo
+.ruff_cache/
+.vitest/
+sidecar/dist/
+
+# playwright (e2e) output; .env.e2e itself is committed on purpose
+playwright-report/
+test-results/
+!.env.e2e
