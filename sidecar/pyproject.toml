@@ -1,0 +1,59 @@
+[project]
+name = "jwst-pipeline"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "JWST NIRCam source detection, photo-z, cross-match and anomaly pipeline"
+license = {text = "MIT"}
+readme = "../README.md"
+
+dependencies = [
+    "astropy>=6.0",
+    "astroquery>=0.4.7",
+    "pyvo>=1.5",
+    "reproject>=0.14",
+    "sep>=1.4",
+    "photutils>=2.0",
+    "polars>=1.0",
+    "pyarrow>=15.0",
+    "numpy>=1.26",
+    "scipy>=1.12",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "Pillow>=10.0",
+    "requests>=2.31",
+    "scikit-image>=0.22",
+    "eazy==0.8.4",
+]
+
+[project.optional-dependencies]
+ml-gpu = ["torch>=2.2"]
+jax = ["jax[cpu]>=0.4.30"]
+deblend = ["scarlet2", "jax[cpu]>=0.4.30"]  # optional PSF-aware deblending stage
+cigale = ["pcigale>=2024.0"]  # install from source: https://cigale.lam.fr
+dev = ["pytest>=8.0", "pyinstaller>=6.0"]
+
+[project.scripts]
+jwst-pipeline = "jwst_pipeline.__main__:main"
+jwst-field = "jwst_pipeline.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-m 'not network'"
+markers = [
+    "network: test needs internet access (MAST, VizieR, EAZY templates); skipped by default, run with -m network",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["jwst_pipeline"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
