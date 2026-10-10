@@ -273,3 +273,17 @@ The source image is `docs/images/app-icon.png` (1024 × 1024, transparent corner
 npx tauri icon docs/images/app-icon.png
 rm -rf src-tauri/icons/android src-tauri/icons/ios   # desktop only
 ```
+
+## Signing and notarizing (macOS)
+
+`scripts/release_macos.sh` builds the app bundle, signs every Mach-O file inside the bundled sidecar and then the app itself with the hardened runtime and `src-tauri/entitlements.plist`, submits the app to Apple's notary service, staples the ticket, builds the dmg, and notarizes and staples that too. It needs a Developer ID Application certificate in the login keychain and an App Store Connect API key:
+
+```bash
+export APPLE_SIGNING_IDENTITY="Developer ID Application: Your Name (TEAMID)"
+export APPLE_API_KEY=KEYID
+export APPLE_API_ISSUER=issuer-uuid
+export APPLE_API_KEY_PATH=/path/to/AuthKey_KEYID.p8
+scripts/release_macos.sh            # SKIP_BUILD=1 to reuse an existing .app
+```
+
+The entitlements grant the three hardened-runtime exceptions CPython needs to load extension modules (`allow-unsigned-executable-memory`, `disable-library-validation`, `allow-dyld-environment-variables`). The script prints the notary log if Apple rejects a submission. The dmg attached to each GitHub Release is produced this way; the dmg built by the `release-build` CI job is unsigned.
