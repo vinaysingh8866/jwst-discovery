@@ -4,7 +4,7 @@ version = "0.1.0"
 requires-python = ">=3.11"
 description = "JWST NIRCam source detection, photo-z, cross-match and anomaly pipeline"
 license = {text = "MIT"}
-readme = "../README.md"
+readme = "README.md"
 
 dependencies = [
     "astropy>=6.0",
