@@ -1,0 +1,133 @@
+{
+  "observations": 41,
+  "programs": [
+    {
+      "program_id": "2736",
+      "observations": 18,
+      "instruments": [
+        "NIRCAM"
+      ],
+      "targets": [
+        "SMACS J0723.3-7327"
+      ],
+      "filters": [
+        {
+          "filter": "F090W",
+          "filename": "jw02736-o001_t001_nircam_clear-f090w_i2d.fits",
+          "size_bytes": 1182793728,
+          "size_mb": 1128.1
+        },
+        {
+          "filter": "F150W",
+          "filename": "jw02736-o001_t001_nircam_clear-f150w_i2d.fits",
+          "size_bytes": 1182793728,
+          "size_mb": 1128.1
+        },
+        {
+          "filter": "F200W",
+          "filename": "jw02736-o001_t001_nircam_clear-f200w_i2d.fits",
+          "size_bytes": 1182793728,
+          "size_mb": 1128.1
+        },
+        {
+          "filter": "F277W",
+          "filename": "jw02736-o001_t001_nircam_clear-f277w_i2d.fits",
+          "size_bytes": 296222720,
+          "size_mb": 282.5
+        },
+        {
+          "filter": "F356W",
+          "filename": "jw02736-o001_t001_nircam_clear-f356w_i2d.fits",
+          "size_bytes": 296222720,
+          "size_mb": 282.5
+        },
+        {
+          "filter": "F444W",
+          "filename": "jw02736-o001_t001_nircam_clear-f444w_i2d.fits",
+          "size_bytes": 296222720,
+          "size_mb": 282.5
+        }
+      ],
+      "total_size_mb": 4231.8,
+      "mosaic_count": 6,
+      "has_level3": true
+    },
+    {
+      "program_id": "4446",
+      "observations": 15,
+      "instruments": [
+        "NIRCAM"
+      ],
+      "targets": [
+        "SMACS0723-PARALLEL"
+      ],
+      "filters": [
+        {
+          "filter": "F115W",
+          "filename": "jw04446-o002_t003_nircam_clear-f115w_i2d.fits",
+          "size_bytes": 604000000,
+          "size_mb": 576.0
+        },
+        {
+          "filter": "F200W",
+          "filename": "jw04446-o002_t003_nircam_clear-f200w_i2d.fits",
+          "size_bytes": 604000000,
+          "size_mb": 576.0
+        },
+        {
+          "filter": "F356W",
+          "filename": "jw04446-o002_t003_nircam_clear-f356w_i2d.fits",
+          "size_bytes": 151000000,
+          "size_mb": 144.0
+        },
+        {
+          "filter": "F444W",
+          "filename": "jw04446-o002_t003_nircam_clear-f444w_i2d.fits",
+          "size_bytes": 151000000,
+          "size_mb": 144.0
+        }
+      ],
+      "total_size_mb": 1440.0,
+      "mosaic_count": 4,
+      "has_level3": true
+    },
+    {
+      "program_id": "1176",
+      "observations": 8,
+      "instruments": [
+        "NIRISS",
+        "NIRCAM"
+      ],
+      "targets": [
+        "SMACS-0723-NIRISS"
+      ],
+      "filters": [
+        {
+          "filter": "F115W",
+          "filename": "jw01176-o004_t002_niriss_clear-f115w_i2d.fits",
+          "size_bytes": 88000000,
+          "size_mb": 83.9
+        },
+        {
+          "filter": "F150W",
+          "filename": "jw01176-o004_t002_niriss_clear-f150w_i2d.fits",
+          "size_bytes": 88000000,
+          "size_mb": 83.9
+        },
+        {
+          "filter": "F200W",
+          "filename": "jw01176-o004_t002_niriss_clear-f200w_i2d.fits",
+          "size_bytes": 88000000,
+          "size_mb": 83.9
+        }
+      ],
+      "total_size_mb": 251.7,
+      "mosaic_count": 3,
+      "has_level3": false
+    }
+  ],
+  "totalSizeGb": 5.78,
+  "target": "SMACS-0723",
+  "cached": false,
+  "cachedAt": null
+}

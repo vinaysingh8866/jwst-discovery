@@ -1,0 +1,898 @@
+[
+ {
+  "field": "goods_south",
+  "label": "GOODS-South / JADES",
+  "ra_center": 53.126,
+  "dec_center": -27.802,
+  "catalog_count": 17,
+  "catalogs": [
+   {
+    "name": "candels_gs",
+    "label": "CANDELS"
+   },
+   {
+    "name": "hst3d",
+    "label": "3D-HST"
+   },
+   {
+    "name": "vandels_cdfs",
+    "label": "VANDELS"
+   },
+   {
+    "name": "muse_udf",
+    "label": "MUSE-UDF"
+   },
+   {
+    "name": "jades_dr2_gs",
+    "label": "JADES-DR2"
+   },
+   {
+    "name": "jades_nirspec",
+    "label": "JADES-NIRSpec"
+   },
+   {
+    "name": "astrodeep_jwst_gs",
+    "label": "ASTRODEEP-JWST"
+   },
+   {
+    "name": "hlf_goods_s",
+    "label": "HLF"
+   },
+   {
+    "name": "chandra_7ms",
+    "label": "Chandra-7Ms"
+   },
+   {
+    "name": "muse_hudf_dr2",
+    "label": "MUSE-HUDF-DR2"
+   },
+   {
+    "name": "goods_vimos",
+    "label": "GOODS-VIMOS"
+   },
+   {
+    "name": "vuds_ecdfs",
+    "label": "VUDS"
+   },
+   {
+    "name": "muse_wide",
+    "label": "MUSE-Wide"
+   },
+   {
+    "name": "zfourge_cdfs",
+    "label": "ZFOURGE"
+   },
+   {
+    "name": "hsu_ecdfs",
+    "label": "Hsu-ECDFS"
+   },
+   {
+    "name": "astrodeep_gs43",
+    "label": "ASTRODEEP-GS43"
+   },
+   {
+    "name": "jades_hlsp_gs",
+    "label": "JADES-HLSP-Phot-GS"
+   }
+  ],
+  "has_hlsp_mosaics": true,
+  "mosaic_filters": [
+   "F090W",
+   "F115W",
+   "F150W",
+   "F200W",
+   "F277W",
+   "F335M",
+   "F356W",
+   "F410M",
+   "F444W"
+  ],
+  "mosaic_label": "JADES GOODS-South",
+  "est_mosaic_size_gb": 18.0
+ },
+ {
+  "field": "abell2744",
+  "label": "Abell 2744 / Pandora's Cluster",
+  "ra_center": 3.586,
+  "dec_center": -30.4,
+  "catalog_count": 10,
+  "catalogs": [
+   {
+    "name": "uncover_a2744",
+    "label": "UNCOVER-DR2"
+   },
+   {
+    "name": "astrodeep_a2744",
+    "label": "ASTRODEEP-A2744"
+   },
+   {
+    "name": "paris_nircam_a2744",
+    "label": "Paris-NIRCam-A2744"
+   },
+   {
+    "name": "hff_a2744",
+    "label": "HFF-DeepSpace-A2744"
+   },
+   {
+    "name": "astrodeep_a2744_pz",
+    "label": "ASTRODEEP-A2744-photoz"
+   },
+   {
+    "name": "niriss_a2744",
+    "label": "Watson-NIRISS-A2744"
+   },
+   {
+    "name": "nedkova_a2744",
+    "label": "Nedkova-A2744"
+   },
+   {
+    "name": "richard_muse_a2744",
+    "label": "Richard-MUSE-A2744"
+   },
+   {
+    "name": "raney_a2744",
+    "label": "Raney-A2744"
+   },
+   {
+    "name": "braglia_a2744",
+    "label": "Braglia-VLT-A2744"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "macs0417",
+  "label": "MACS J0417.5-1154",
+  "ra_center": 64.394,
+  "dec_center": -11.909,
+  "catalog_count": 3,
+  "catalogs": [
+   {
+    "name": "relics_macs0417",
+    "label": "RELICS-MACS0417"
+   },
+   {
+    "name": "canucs_macs0417_clu",
+    "label": "CANUCS-DR1-MACS0417-CLU"
+   },
+   {
+    "name": "canucs_macs0417_ncf",
+    "label": "CANUCS-DR1-MACS0417-NCF"
+   }
+  ],
+  "has_hlsp_mosaics": true,
+  "mosaic_filters": [
+   "F090W",
+   "F115W",
+   "F140M",
+   "F150W",
+   "F182M",
+   "F200W",
+   "F210M",
+   "F250M",
+   "F277W",
+   "F300M",
+   "F335M",
+   "F356W",
+   "F360M",
+   "F410M",
+   "F444W"
+  ],
+  "mosaic_label": "CANUCS MACS-J0417",
+  "est_mosaic_size_gb": 13.5
+ },
+ {
+  "field": "smacs0723",
+  "label": "SMACS J0723.3-7327",
+  "ra_center": 110.838,
+  "dec_center": -73.453,
+  "catalog_count": 5,
+  "catalogs": [
+   {
+    "name": "relics_smacs0723",
+    "label": "RELICS-SMACS0723"
+   },
+   {
+    "name": "amrutha_smacs0723",
+    "label": "Amrutha-SMACS0723"
+   },
+   {
+    "name": "caminha_smacs0723",
+    "label": "Caminha-MUSE-SMACS0723"
+   },
+   {
+    "name": "grizli_smacs0723",
+    "label": "Grizli-SMACS0723-Phot"
+   },
+   {
+    "name": "noirot_smacs0723",
+    "label": "Noirot-NIRISS-SMACS0723"
+   }
+  ],
+  "has_hlsp_mosaics": true,
+  "mosaic_filters": [
+   "F090W",
+   "F150W",
+   "F200W",
+   "F277W",
+   "F356W",
+   "F444W"
+  ],
+  "mosaic_label": "ERO SMACS-0723",
+  "est_mosaic_size_gb": 6.0
+ },
+ {
+  "field": "goods_north",
+  "label": "GOODS-North / JADES",
+  "ra_center": 189.229,
+  "dec_center": 62.238,
+  "catalog_count": 7,
+  "catalogs": [
+   {
+    "name": "hst3d_gn",
+    "label": "3D-HST-GN"
+   },
+   {
+    "name": "uvcandels_gn",
+    "label": "UVCANDELS-GN"
+   },
+   {
+    "name": "astrodeep_jwst_gn",
+    "label": "ASTRODEEP-JWST-GN"
+   },
+   {
+    "name": "candels_shards_gn",
+    "label": "CANDELS-SHARDS-GN"
+   },
+   {
+    "name": "hst3d_grism_gn",
+    "label": "3D-HST-Grism-GN"
+   },
+   {
+    "name": "goods_herschel_gn",
+    "label": "GOODS-Herschel-GN"
+   },
+   {
+    "name": "jades_hlsp_gn",
+    "label": "JADES-HLSP-Phot-GN"
+   }
+  ],
+  "has_hlsp_mosaics": true,
+  "mosaic_filters": [
+   "F090W",
+   "F115W",
+   "F150W",
+   "F182M",
+   "F200W",
+   "F210M",
+   "F277W",
+   "F335M",
+   "F356W",
+   "F410M",
+   "F444W"
+  ],
+  "mosaic_label": "JADES DR3 GOODS-North",
+  "est_mosaic_size_gb": 110.0
+ },
+ {
+  "field": "elgordo",
+  "label": "El Gordo / ACT-CL J0102-4915",
+  "ra_center": 15.7208,
+  "dec_center": -49.2553,
+  "catalog_count": 5,
+  "catalogs": [
+   {
+    "name": "relics_elgordo",
+    "label": "RELICS-ElGordo"
+   },
+   {
+    "name": "caminha_elgordo",
+    "label": "Caminha-MUSE-ElGordo"
+   },
+   {
+    "name": "frye_elgordo",
+    "label": "Frye-JWST-Lensing-ElGordo"
+   },
+   {
+    "name": "sifon_elgordo",
+    "label": "Sifon-ACT-ElGordo"
+   },
+   {
+    "name": "dja_elgordo",
+    "label": "DJA-grizli-ElGordo"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "plckg165",
+  "label": "PLCK G165.7+67.0",
+  "ra_center": 171.8125,
+  "dec_center": 42.4753,
+  "catalog_count": 1,
+  "catalogs": [
+   {
+    "name": "dja_plckg165",
+    "label": "DJA-grizli-PLCKG165"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "bullet",
+  "label": "Bullet Cluster (1E 0657-56)",
+  "ra_center": 104.6235,
+  "dec_center": -55.9469,
+  "catalog_count": 1,
+  "catalogs": [
+   {
+    "name": "richard_muse_bullet",
+    "label": "Richard-MUSE-Bullet"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "sunrise_arc",
+  "label": "WHL J0137-08 (Sunrise Arc / Earendel)",
+  "ra_center": 24.3542,
+  "dec_center": -8.4556,
+  "catalog_count": 4,
+  "catalogs": [
+   {
+    "name": "relics_whl0137",
+    "label": "RELICS-HST"
+   },
+   {
+    "name": "relics_hz_whl0137",
+    "label": "RELICS-HighZ"
+   },
+   {
+    "name": "diego_sl_whl0137",
+    "label": "Diego-SL-2023"
+   },
+   {
+    "name": "dja_whl0137",
+    "label": "DJA-grizli-Sunrise"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "abell_s1063",
+  "label": "Abell S1063 (RXC J2248.7-4431)",
+  "ra_center": 342.1833,
+  "dec_center": -44.5308,
+  "catalog_count": 10,
+  "catalogs": [
+   {
+    "name": "hff_a1063_clu",
+    "label": "HFF-Shipley-CLU"
+   },
+   {
+    "name": "hff_a1063_par",
+    "label": "HFF-Shipley-PAR"
+   },
+   {
+    "name": "nedkova_a1063_clu",
+    "label": "Nedkova-2021-CLU"
+   },
+   {
+    "name": "nedkova_a1063_par",
+    "label": "Nedkova-2021-PAR"
+   },
+   {
+    "name": "bouwens_hz_a1063",
+    "label": "Bouwens-HighZ-2022"
+   },
+   {
+    "name": "lensing_a1063",
+    "label": "Lensing-MultiImg"
+   },
+   {
+    "name": "clash_abells1063",
+    "label": "CLASH-Molino-AbellS1063"
+   },
+   {
+    "name": "bradac_abells1063_phot",
+    "label": "Bradac-ASTRODEEP-AbellS1063-phot"
+   },
+   {
+    "name": "bradac_abells1063_prop",
+    "label": "Bradac-ASTRODEEP-AbellS1063-prop"
+   },
+   {
+    "name": "dja_abells1063",
+    "label": "DJA-grizli-AbellS1063"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "macsj0647",
+  "label": "MACS J0647.7+7015 (CANUCS)",
+  "ra_center": 101.9583,
+  "dec_center": 70.25,
+  "catalog_count": 3,
+  "catalogs": [
+   {
+    "name": "molino_macs0647",
+    "label": "Molino-PhotoZ-2017"
+   },
+   {
+    "name": "clash_macs0647",
+    "label": "CLASH-Connor-2017"
+   },
+   {
+    "name": "dja_macs0647",
+    "label": "DJA-grizli-MACS0647"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "plckg191",
+  "label": "PLCK G191.24+62.04 (PEARLS)",
+  "ra_center": 161.18,
+  "dec_center": 33.85,
+  "catalog_count": 1,
+  "catalogs": [
+   {
+    "name": "dja_plckg191",
+    "label": "DJA-grizli-PLCKG191"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "clgj1212",
+  "label": "CLG J1212+2733 (PEARLS)",
+  "ra_center": 183.08,
+  "dec_center": 27.55,
+  "catalog_count": 1,
+  "catalogs": [
+   {
+    "name": "dja_clgj1212",
+    "label": "DJA-grizli-CLGJ1212"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "abell1689",
+  "label": "Abell 1689",
+  "ra_center": 197.8729,
+  "dec_center": -1.3386,
+  "catalog_count": 1,
+  "catalogs": [
+   {
+    "name": "dja_abell1689",
+    "label": "DJA-grizli-Abell1689"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "macs0416",
+  "label": "MACS J0416.1-2403 (HFF/CANUCS)",
+  "ra_center": 64.039,
+  "dec_center": -24.067,
+  "catalog_count": 7,
+  "catalogs": [
+   {
+    "name": "hff_macs0416_clu",
+    "label": "HFF-Shipley-CLU"
+   },
+   {
+    "name": "hff_macs0416_par",
+    "label": "HFF-Shipley-PAR"
+   },
+   {
+    "name": "nedkova_macs0416_clu",
+    "label": "Nedkova-2021-CLU"
+   },
+   {
+    "name": "richard_muse_macs0416",
+    "label": "Richard-MUSE-MACS0416"
+   },
+   {
+    "name": "caminha_macs0416",
+    "label": "Caminha-MUSE-MACS0416"
+   },
+   {
+    "name": "canucs_macs0416_clu",
+    "label": "CANUCS-DR1-MACS0416-CLU"
+   },
+   {
+    "name": "canucs_macs0416_ncf",
+    "label": "CANUCS-DR1-MACS0416-NCF"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "abell370",
+  "label": "Abell 370 (HFF/CANUCS)",
+  "ra_center": 39.97,
+  "dec_center": -1.577,
+  "catalog_count": 7,
+  "catalogs": [
+   {
+    "name": "hff_abell370_clu",
+    "label": "HFF-Shipley-CLU"
+   },
+   {
+    "name": "hff_abell370_par",
+    "label": "HFF-Shipley-PAR"
+   },
+   {
+    "name": "nedkova_abell370_clu",
+    "label": "Nedkova-2021-CLU"
+   },
+   {
+    "name": "richard_muse_abell370",
+    "label": "Richard-MUSE-A370"
+   },
+   {
+    "name": "lagattuta_abell370",
+    "label": "Lagattuta-MUSE-A370"
+   },
+   {
+    "name": "canucs_a370_clu",
+    "label": "CANUCS-DR1-A370-CLU"
+   },
+   {
+    "name": "canucs_a370_ncf",
+    "label": "CANUCS-DR1-A370-NCF"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "macs1149",
+  "label": "MACS J1149.5+2223 (HFF/CANUCS)",
+  "ra_center": 177.399,
+  "dec_center": 22.399,
+  "catalog_count": 6,
+  "catalogs": [
+   {
+    "name": "hff_macs1149_clu",
+    "label": "HFF-Shipley-CLU"
+   },
+   {
+    "name": "hff_macs1149_par",
+    "label": "HFF-Shipley-PAR"
+   },
+   {
+    "name": "nedkova_macs1149_clu",
+    "label": "Nedkova-2021-CLU"
+   },
+   {
+    "name": "richard_muse_macs1149",
+    "label": "Richard-MUSE-MACS1149"
+   },
+   {
+    "name": "canucs_macs1149_clu",
+    "label": "CANUCS-DR1-MACS1149-CLU"
+   },
+   {
+    "name": "canucs_macs1149_ncf",
+    "label": "CANUCS-DR1-MACS1149-NCF"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "macs1423",
+  "label": "MACS J1423.8+2404 (CANUCS)",
+  "ra_center": 215.949,
+  "dec_center": 24.078,
+  "catalog_count": 2,
+  "catalogs": [
+   {
+    "name": "canucs_macs1423_clu",
+    "label": "CANUCS-DR1-MACS1423-CLU"
+   },
+   {
+    "name": "canucs_macs1423_ncf",
+    "label": "CANUCS-DR1-MACS1423-NCF"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "cosmic_gems",
+  "label": "Cosmic Gems Arc / SPT-CL J0615-5746",
+  "ra_center": 93.9667,
+  "dec_center": -57.7806,
+  "catalog_count": 2,
+  "catalogs": [
+   {
+    "name": "relics_spt0615",
+    "label": "RELICS-SPT0615"
+   },
+   {
+    "name": "relics_hz_spt0615",
+    "label": "RELICS-HighZ-SPT0615"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "ngdeep",
+  "label": "NGDEEP (HUDF-Par2)",
+  "ra_center": 53.1625,
+  "dec_center": -27.7914,
+  "catalog_count": 3,
+  "catalogs": [
+   {
+    "name": "astrodeep_ngdeep",
+    "label": "ASTRODEEP-JWST-NGDEEP"
+   },
+   {
+    "name": "astrodeep_ngdeep_pz",
+    "label": "ASTRODEEP-JWST-NGDEEP-photoz"
+   },
+   {
+    "name": "dja_ngdeep",
+    "label": "DJA-grizli-NGDEEP"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "ceers_egs",
+  "label": "CEERS / Extended Groth Strip",
+  "ra_center": 214.9,
+  "dec_center": 52.9,
+  "catalog_count": 4,
+  "catalogs": [
+   {
+    "name": "astrodeep_ceers",
+    "label": "ASTRODEEP-JWST-CEERS"
+   },
+   {
+    "name": "astrodeep_ceers_pz",
+    "label": "ASTRODEEP-JWST-CEERS-photoz"
+   },
+   {
+    "name": "candels_egs",
+    "label": "CANDELS-EGS"
+   },
+   {
+    "name": "dja_ceers",
+    "label": "DJA-grizli-CEERS"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "primer_uds",
+  "label": "PRIMER UDS",
+  "ra_center": 34.4,
+  "dec_center": -5.15,
+  "catalog_count": 0,
+  "catalogs": [],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "dragon_arc",
+  "label": "Dragon Arc / SDSS J1110+6459",
+  "ra_center": 167.633,
+  "dec_center": 64.99,
+  "catalog_count": 0,
+  "catalogs": [],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "ms0451",
+  "label": "MS 0451.6-0305 (Fujimoto PID-6882)",
+  "ra_center": 73.545,
+  "dec_center": -3.014,
+  "catalog_count": 2,
+  "catalogs": [
+   {
+    "name": "jauzac_ms0451",
+    "label": "Jauzac-MUSE-MS0451"
+   },
+   {
+    "name": "moran_ms0451",
+    "label": "Moran-MS0451"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "rxj2129",
+  "label": "RX J2129.7+0005 (Fujimoto PID-6882)",
+  "ra_center": 322.417,
+  "dec_center": 0.089,
+  "catalog_count": 4,
+  "catalogs": [
+   {
+    "name": "clash_rxj2129",
+    "label": "CLASH-Molino-RXJ2129"
+   },
+   {
+    "name": "jauzac_rxj2129",
+    "label": "Jauzac-MUSE-RXJ2129"
+   },
+   {
+    "name": "caminha_clash_rxj2129",
+    "label": "Caminha-CLASH-RXJ2129"
+   },
+   {
+    "name": "dja_rxj2129",
+    "label": "DJA-grizli-RXJ2129"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "rxc_j0600",
+  "label": "RXC J0600.1-2007 (Fujimoto PID-6882)",
+  "ra_center": 90.064,
+  "dec_center": -20.121,
+  "catalog_count": 2,
+  "catalogs": [
+   {
+    "name": "relics_rxc0600",
+    "label": "RELICS-RXC0600"
+   },
+   {
+    "name": "relics_hz_rxc0600",
+    "label": "RELICS-HighZ-RXC0600"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "macs_j0329",
+  "label": "MACS J0329.7-0211 (Fujimoto PID-6882)",
+  "ra_center": 52.423,
+  "dec_center": -2.196,
+  "catalog_count": 4,
+  "catalogs": [
+   {
+    "name": "clash_macs0329",
+    "label": "CLASH-Molino-MACS0329"
+   },
+   {
+    "name": "richard_muse_macs0329",
+    "label": "Richard-MUSE-MACS0329"
+   },
+   {
+    "name": "girardi_macs0329",
+    "label": "Girardi-CLASH-VLT-MACS0329"
+   },
+   {
+    "name": "caminha_clash_macs0329",
+    "label": "Caminha-CLASH-MACS0329"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "rxc_j0032",
+  "label": "RXC J0032.1+1808 (Fujimoto PID-6882)",
+  "ra_center": 8.04,
+  "dec_center": 18.14,
+  "catalog_count": 2,
+  "catalogs": [
+   {
+    "name": "relics_rxc0032",
+    "label": "RELICS-RXC0032"
+   },
+   {
+    "name": "relics_hz_rxc0032",
+    "label": "RELICS-HighZ-RXC0032"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "rxc_j2211",
+  "label": "RXC J2211.7-0350 (Fujimoto PID-6882)",
+  "ra_center": 332.94,
+  "dec_center": -3.833,
+  "catalog_count": 2,
+  "catalogs": [
+   {
+    "name": "relics_rxc2211",
+    "label": "RELICS-RXC2211"
+   },
+   {
+    "name": "relics_hz_rxc2211",
+    "label": "RELICS-HighZ-RXC2211"
+   }
+  ],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ },
+ {
+  "field": "pearls_nep",
+  "label": "PEARLS NEP Time-Domain Field",
+  "ra_center": 261.47,
+  "dec_center": 66.38,
+  "catalog_count": 0,
+  "catalogs": [],
+  "has_hlsp_mosaics": false,
+  "mosaic_filters": [],
+  "mosaic_label": null,
+  "est_mosaic_size_gb": 0
+ }
+]
